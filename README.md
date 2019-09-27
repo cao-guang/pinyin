@@ -11,8 +11,8 @@ import(
 初始化调用
 ```go
 func main()  {
-    pinyin.LoadingPYFileName("./data/pinyin.txt") //这里是字典文件路径程序启动调用一次，载入缓存
-    //demo
+   	pinyin.LoadingPYFileName("./data/pinyin.txt") //这里是字典文件路径程序启动调用一次，载入缓存
+   	//demo
    	str1, err := pinyin.To_Py("汉字拼音", "", "") //默认造型： hanzipinyin
    	if err != nil {
    		fmt.Println(err)
